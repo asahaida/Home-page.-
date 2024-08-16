@@ -1,3 +1,4 @@
+
 .plus_minus {
   float: right;
 }
@@ -80,7 +81,32 @@
   100% {
     transform: rotate(720deg);
   }
+
+
+/* For width 199px and smaller: */
 }
+.float-area{
+  height:0px;
+  display: flex;
+  flex-direction:column;
+  align-items: left;
+  justify-content: left;
+}
+
+.floating-img{
+  transform: translateY(-50%);
+  animation: floater 5s infinite;
+  transition: ease 5s;
+  width: 50px;
+  height:50px;
+}
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 5s;}
+  50%{transform: translateY(10%);transition: ease 5s;}
+}
+
+/* For width 200px and larger: */
 .float-area{
   height:0px;
   display: flex;
@@ -97,10 +123,7 @@
   height:300px;
 }
 
-
-
 @keyframes floater {
   0%{transform: translateY(-10%);transition: ease 5s;}
   50%{transform: translateY(10%);transition: ease 5s;}
 }
-
