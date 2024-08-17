@@ -129,6 +129,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+
 body {
   background-color: #0A2344;
   font-family: 'rubik', sans-serif;
@@ -138,5 +139,3 @@ h1 {
   text-align: center;
   margin: 40px 0;
 }
-
-
