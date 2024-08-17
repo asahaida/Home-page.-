@@ -50,10 +50,10 @@ mark{
     color:#000
 }
  small{
-    font-size:80%
+    font-size:40%
 }
 sub,sup{
-    font-size:75%;
+    font-size:60%;
     line-height:0;
     position:relative;
     vertical-align:baseline
@@ -144,29 +144,29 @@ textarea{
 /* End extract */
  html,body{
     font-family:Verdana,sans-serif;
-    font-size:15px;
+    font-size:25px;
     line-height:1.5
 }
 html{
     overflow-x:hidden
 }
  h1{
-    font-size:36px
+    font-size:40px
 }
 h2{
-    font-size:30px
+    font-size:35px
 }
 h3{
-    font-size:24px
+    font-size:18px
 }
 h4{
-    font-size:20px
+    font-size:18px
 }
 h5{
     font-size:18px
 }
 h6{
-    font-size:16px
+    font-size:15px
 }
 .w3-serif{
     font-family:serif
@@ -768,7 +768,7 @@ a{
 }
  .w3-code,.w3-codespan{
     font-family:Consolas,"courier new";
-    font-size:16px
+    font-size:40px
 }
  .w3-code{
     width:auto;
@@ -930,10 +930,10 @@ a{
     filter:sepia(50%)
 }
  .w3-tiny{
-    font-size:10px!important
+    font-size:15px!important
 }
 .w3-small{
-    font-size:12px!important
+    font-size:15px!important
 }
 .w3-medium{
     font-size:15px!important
