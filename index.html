@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <body>
+</style>
+<body>
 
   <!-- Navbar -->
 <div class="w3-top">
@@ -17,7 +18,7 @@
     <a href="#UX/UI Case Studies" class="w3-bar-item w3-button w3-padding-large w3-hide-small">UX/UI Case Studies</a>
     <a href="#About Me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Me</a>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">My Art <i class="fa fa-caret-down"></i></button>
+      <button class="w3-padding-large w3-button" title="My Art">My Art <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#" class="w3-bar-item w3-button">Drawings</a>
         <a href="#" class="w3-bar-item w3-button">Paintings</a>
@@ -28,18 +29,17 @@
   </div>
 </div>
 <div class="searchBar">
-  <form action="#" id="searchForm">
-  <h1>What are you looking for?</h1>
-    <input class="w3-input w3-border" type="text" placeholder="Find something.." required name="Message">
-    <button class="w3-button w3-black w3-section w3-right" type="submit"><i class="fa fa-search"></i></button>
-  </form>
-</div>
+    <form action="#" id="searchForm">
+    <h1>What are you looking for?</h1>
+      <input class="w3-input w3-border" type="text" placeholder="Find something.." required name="Message">
+      <button class="w3-button w3-black w3-section w3-right" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#UX/UI Case Studies" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">UX/UI Case Studies</a>
   <a href="#About Me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Me</a>
   <a href="#My Art" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Art</a>
-  <a href="#Resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Resume</a>
 </div>
 
 <!-- Page content -->
@@ -64,6 +64,7 @@
 </div>
 
     <!-- Case Studies -->
+  
     <ul class="w3-ul w3-border w3-white w3-text-black w3-padding-">
       <h1 class="w3-wide w3-center w3-padding-32">Featured Case Studies</h1>
       <div class="w3-row-padding w3-padding-15 w3-center">
@@ -97,14 +98,13 @@
     </div>
   </div>
 </div>
-
  <!-- My Skills Inventory -->
-  <div class="w3-black" id="container">
-    <div class="w3-container w3-content w3-padding-50" id="accordion">
+  <div class="w3-black" id="accordion">
+    <div class="w3-container w3-content w3-padding-64" id="toggleContainer">
       <h1 class="w3-wide w3-center w3-padding-64">My Skills Inventory</h1>
       
       <ul class="w3-ul w3-border w3-white w3-text-black">
-        <li class="w3-padding toggle w3-hover-pink">
+        <li class="w3-padding toggle w3-hover-pink">   
           Leadership
           <span class="plus_minus">+</span>
           <div class="toggleContainer">
@@ -212,19 +212,11 @@
               <div class="w3-padding">Visual Studio Code</div>
             </div>
            </li>  
-          
+          </ul>
 
 <!--My Art Section-->
-</ul>   
-        </div>
-      <div class="w3-container w3-content w3-center w3-padding-32" id="My Art">
-  <html>
-<head>
+<div class="w3-container w3-content w3-center w3-padding-32" id="art">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-</style>
-</head>
-<body>
 <h1 class="glow w3-wide w3-center w3-padding-32">My Art</h1>
 </body>
 </html> 
@@ -265,6 +257,7 @@
     </div>
   </div>
 </div>
+
 <!-- footer Image -->
 <div class="w3-center">
   <img src="images/footer.jpg" style="width:100%">
@@ -275,13 +268,9 @@
   <i class="fa fa-linkedin w3-hover-opacity"></i>
   <i class="fa fa-behance w3-hover-opacity"></i>
   <i class="fa fa-github w3-hover-opacity"></i>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<html>
-  <head>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+    
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
   .footer {
@@ -296,12 +285,9 @@
   </style>
   </head>
   <body>
-  
-  
-  <div class="footer" w3">
+  <div class="footer">
     <p><b>Download My Resume</p>
   </div>
-  
   </body>
   </html> 
   
