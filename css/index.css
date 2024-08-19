@@ -45,7 +45,7 @@ color: #FFFFFF;
   position: fixed;
   top: 0;
   right: 0;
-  background-color: black;
+  background-color: #1C0117;
   z-index: 1;
   padding: 15px;
   width: 100%;
@@ -64,7 +64,7 @@ color: #FFFFFF;
   transition: all .5s ease;
 }
 .searchBar button {
-  background-color: orange !important;
+  background-color: #F5F5F5 !important;
   width: 100%;
 }
 .searchButton{
