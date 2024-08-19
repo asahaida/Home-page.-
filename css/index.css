@@ -1,6 +1,11 @@
 .plus_minus {
   float: right;
 }
+
+#accordion {
+background-color: #222831;
+color: #00ffff;
+}
 .toggleContainer {
   padding: 15px;
   display: none;
