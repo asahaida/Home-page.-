@@ -79,7 +79,7 @@ color: #FFFFFF;
   width: 100%;
 }
 .searchButton{
-  position: relative
+  justify-content: center;
 }
 .w3-top {
   z-index:2;
