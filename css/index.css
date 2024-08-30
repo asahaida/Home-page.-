@@ -50,7 +50,8 @@ color: #FFFFFF;
 }
 
 .searchBar {
-  position: fixed;
+  position: flex;
+  align-content: center;
   top: 0;
   right: 0;
   background-color: #1C0117;
